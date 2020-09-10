@@ -1,0 +1,353 @@
+/* html, body, select
+{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 0.9rem !important;
+    background-color: #ffffff;
+}
+
+
+*/
+
+
+
+ html, body{
+    text-rendering: optimizelegibility !important;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+      font-size: 16px !important;
+    }
+    .top-job{
+        font-size: 26px !important;
+    }
+    .last-job{
+        font-size: 22px !important;
+    }
+  }
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ .underline{
+     text-decoration: underline;
+ }
+
+ h1,h2, h3,h4, h5,h6{
+    color:#336EFF !important;
+ }
+
+
+
+ .img-center{
+     text-align:center !important;
+ }
+
+ .vs__selected-options > input::placeholder{
+     font-size: 15px;
+     color: lightgray;
+ }
+
+ .bg-red{
+     background-color : #336EFF !important;
+ }
+ .t-white{
+     color:white !important;
+ }
+
+ .q {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+ }
+
+ table{
+     font-size: 0.8rem;
+ }
+
+ .job-card
+ {
+    position: relative;
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,0.125);
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+ }
+
+ .strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: rgb(87, 84, 84);
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+fieldset
+{
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    /* padding: 7px;
+    margin: 28px; */
+    /* position: relative; */
+}
+
+
+fieldset label{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color:#444444;
+}
+fieldset legend{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+fieldset input{
+    background-color:#fbfbfb !important;
+    height: 2.7rem;
+    /* margin-bottom: 2rem; */
+}
+
+.st-badge {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .125rem;
+    background-color: #e9ecf0;
+    /* background-color: #e9ecf0;  */
+    color: #3a3a3a;
+     margin-right: 5px;
+     text-transform: uppercase;
+}
+
+.minimal:hover{
+/* background-color:#ffff82; */
+background-color:#6792FB;
+cursor:pointer;
+}
+
+.board{
+    -webkit-box-shadow: -1px 4px 32px 10px rgba(181,174,181,0.78);
+    -moz-box-shadow: -1px 4px 32px 10px rgba(181,174,181,0.78);
+    box-shadow: -1px 4px 32px 10px rgba(181,174,181,0.78);
+}
+
+.dosis{
+    font-family: 'Dosis', sans-serif;
+}
+
+h5
+{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+.title{
+    color  :#336EFF !important;
+    font-family: 'Dosis', sans-serif;
+}
+
+.lead-text
+{
+    font-size: 1.5rem;
+    color:#3a3a3a;
+    text-align: justify;
+}
+
+header a{
+    text-transform: uppercase;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.newsletter {
+    border: 1px solid #336EFF;
+    color:black;
+}
+
+#search {
+    border-radius: 0.7em;
+    border: 1px solid #336EFF;
+}
+
+#search:focus {
+    box-shadow: 0px 0px 0px 2px #336EFF;
+}
+
+.blue
+{
+    color:#336EFF;
+}
+
+.bg-bl{
+    color:white !important;
+    border-color:#336EFF !important;
+    background-color: #336EFF;
+}
+
+a {
+    color: #336EFF;
+}
+a:hover {
+    color: #336EFF;
+}
+
+.longboard
+{
+     color:white;
+     text-transform:uppercase;
+     background-color: #336EFF;
+     min-height: 60px;
+     line-height: 2;
+     text-align:center;
+}
+
+
+.right-board
+{
+    background-color: #fbfbfb;
+    border-left: 1px solid #ededed;
+    color: #888;
+    opacity: 1;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.right-board p
+{
+    font-family: 'Nunito', sans-serif !important;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+p > li{
+    font-size: 18px;
+}
+
+.strike-bl-s
+{
+    font-weight: bold;
+    color:#336EFF;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.normal
+{
+    text-transform: none;
+    font-size: 1.1rem;
+}
+
+.highlight
+{
+    color:#ffff82;
+    background-color:#ffff82;
+}
+
+.bg-highlight
+{
+    background-color: #ffff82!important;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.bu{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #F9F9F9;
+}
+footer h2 {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 1px solid #b2b2b2;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    line-height: 40px;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+footer li {
+    padding-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+footer .linkedin img {
+    width: 28px;
+}
+
+#tag-selector {
+    text-transform: uppercase;
+}
+
+
+.rotate {
+    animation: rotation 1.8s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  /* Surcharge bootstrap badges */
+  .badge {
+      font-size: 100%;
+  }
+
+  /* Style title recruiter job in blue */
+  .blue-title {
+      color: #336EFF;
+  }
